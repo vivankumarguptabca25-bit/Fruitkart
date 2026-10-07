@@ -1,0 +1,64 @@
+================================================================================
+FRUITKART E-COMMERCE WEBSITE - COMPLETE SAFE BACKUP
+================================================================================
+Backup Created On: 2026-10-06
+Backup Location  : C:\xampp\htdocs\Fruit Shopping App - BACKUP_SAFE
+Main App Location: C:\xampp\htdocs\Fruit Shopping App
+Database Dump    : database/full_database_backup.sql & database/schema.sql
+
+--------------------------------------------------------------------------------
+IS FOLDER KA PURPOSE:
+--------------------------------------------------------------------------------
+Yeh folder aapki puri website ka 100% complete and working backup hai!
+Isme:
+1. Saare Frontend aur Backend PHP files (Cart, Checkout, Payment, Login, Signup, Tracking etc.)
+2. Admin Panel (Products CRUD, Categories, Orders management, Settings)
+3. Swiggy-Style GPS Interactive Map Engine
+4. Database ke saare tables aur current data (Users, Products, Orders, Categories)
+5. Images, CSS, JS aur Icons ke assets
+
+Agar future me website me koi bhi error aaye ya koi file galti se delete ho jaye,
+to aap bina tension ke is backup se website ko 1 minute me wapas thik kar sakte hain.
+
+--------------------------------------------------------------------------------
+AGAR WEBSITE ME PROBLEM AAYE TO THIK KAISE KAREIN (RESTORE GUIDE):
+--------------------------------------------------------------------------------
+
+TARIKA 1: AGAR WEBSITE KE CODE ME KISI FILE ME ERROR AAYE:
+1. Is backup folder se us file ko copy karein (jaise: login.php, checkout.php, ya pura admin folder).
+2. Use apne main project folder:
+   "C:\xampp\htdocs\Fruit Shopping App"
+   me paste (replace) kar dein!
+3. Website wapas perfectly chalne lagegi!
+
+TARIKA 2: AGAR PURA PROJECT HE KHARAB HO JAYE YA DELETE HO JAYE:
+1. Main folder "C:\xampp\htdocs\Fruit Shopping App" ko khali karein.
+2. Is backup folder "Fruit Shopping App - BACKUP_SAFE" ke andar ka sara saman
+   copy karke "Fruit Shopping App" folder me paste kar dein.
+3. Browser me http://localhost/Fruit Shopping App kholein - sab normal ho jayega!
+
+TARIKA 3: AGAR DATABASE ME KOI DATA YA TABLE KHARAB HO JAYE:
+Option A (Sabse aasan - 1 Click):
+- Is backup folder me diye gaye "RESTORE_DATABASE.bat" file par double click karein!
+- Database automatic restore ho jayega.
+
+Option B (phpMyAdmin se):
+1. Browser me http://localhost/phpmyadmin kholein.
+2. Left side se "fruit_shopping_db" database select karein.
+3. Upar "Import" tab par click karein.
+4. "Choose File" dabakar is file ko select karein:
+   "database/full_database_backup.sql"
+5. Niche "Go" ya "Import" button dabayein!
+Saare products, users, addresses aur orders wapas aa jayenge!
+
+--------------------------------------------------------------------------------
+DEFAULT LOGIN ACCOUNTS:
+--------------------------------------------------------------------------------
+Customer Account:
+Email   : user@example.com
+Password: user123
+
+Admin Account:
+Email   : admin@fruitkart.com
+Password: admin123
+================================================================================

@@ -1,0 +1,24 @@
+{
+  "name": "FruitKart - Fresh Farm Fruits",
+  "short_name": "FruitKart",
+  "description": "Orchard fresh farm fruits delivered cold within 2 hours.",
+  "start_url": "/Fruit%20Shopping%20App/index.php",
+  "display": "standalone",
+  "background_color": "#2874f0",
+  "theme_color": "#2874f0",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3194/3194766.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3194/3194766.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
